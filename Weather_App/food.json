@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Mumbai",
+        "popular_dishes": [
+            "Vada Pav",
+            "Pav Bhaji",
+            "Pani Puri",
+            "Bhel Puri",
+            "Misal Pav"
+        ]
+    },
+    {
+        "name": "Delhi",
+        "popular_dishes": [
+            "Chole Bhature",
+            "Butter Chicken",
+            "Aloo Tikki",
+            "Paratha",
+            "Rajma Chawal"
+        ]
+    },
+    {
+        "name": "Kolkata",
+        "popular_dishes": [
+            "Rosogolla",
+            "Macher Jhol",
+            "Kathi Roll",
+            "Phuchka",
+            "Chingri Macher Malai Curry"
+        ]
+    },
+    {
+        "name": "Chennai",
+        "popular_dishes": [
+            "Masala Dosa",
+            "Idli Sambhar",
+            "Filter Coffee",
+            "Biryani",
+            "Pongal"
+        ]
+    },
+    {
+        "name": "Jaipur",
+        "popular_dishes": [
+            "Dal Bati Churma",
+            "Laal Maas",
+            "Gatte ki Sabzi",
+            "Kachori",
+            "Mirchi Bada"
+        ]
+    },
+    {
+        "name": "Bangalore",
+        "popular_dishes": [
+            "Masala Dosa",
+            "Bisi Bele Bath",
+            "Vada",
+            "Akki Roti",
+            "Mysore Pak"
+        ]
+    },
+    {
+        "name": "Hyderabad",
+        "popular_dishes": [
+            "Hyderabadi Biryani",
+            "Haleem",
+            "Hyderabadi Marag",
+            "Double Ka Meetha",
+            "Mirchi Bajji"
+        ]
+    },
+    {
+        "name": "Ahmedabad",
+        "popular_dishes": [
+            "Dhokla",
+            "Khandvi",
+            "Fafda",
+            "Thepla",
+            "Undhiyu"
+        ]
+    },
+    {
+        "name": "Pune",
+        "popular_dishes": [
+            "Misal Pav",
+            "Puran Poli",
+            "Vada Pav",
+            "Bakarvadi",
+            "Sabudana Khichdi"
+        ]
+    },
+    {
+        "name": "Lucknow",
+        "popular_dishes": [
+            "Tunday Kababi",
+            "Galouti Kebab",
+            "Lucknawi Biryani",
+            "Kulfi",
+            "Sheermal"
+        ]
+    },
+    {
+        "name": "Amritsar",
+        "popular_dishes": [
+            "Amritsari Kulcha",
+            "Makki di Roti with Sarson da Saag",
+            "Chole Bhature",
+            "Paneer Tikka",
+            "Lassi"
+        ]
+    },
+    {
+        "name": "Varanasi",
+        "popular_dishes": [
+            "Banarasi Paan",
+            "Malaiyyo",
+            "Kachori Sabzi",
+            "Tamatar Chaat",
+            "Thandai"
+        ]
+    },
+    {
+        "name": "Goa",
+        "popular_dishes": [
+            "Sorpotel",
+            "Goan Fish Curry",
+            "Vindaloo",
+            "Bebinca",
+            "Feni"
+        ]
+    },
+    {
+        "name": "Thiruvananthapuram",
+        "popular_dishes": [
+            "Appam with Stew",
+            "Kerala Fish Curry",
+            "Puttu with Kadala Curry",
+            "Avial",
+            "Parippu Vada"
+        ]
+    },
+    {
+        "name": "Jaipur",
+        "popular_dishes": [
+            "Dal Bati Churma",
+            "Laal Maas",
+            "Gatte ki Sabzi",
+            "Kachori",
+            "Mirchi Bada"
+        ]
+    },
+    {
+        "name": "Kumta",
+        "popular_dishes": [
+            "Akki Roti",
+            "Buns-Baji",
+            "Rice and Sambar",
+            "Idli Sambar",
+            "Vada Saambar",
+            "Atirasa"
+        ]
+    },
+    {
+        "name": "Sirsi",
+        "popular_dishes": [
+            "Atirasa",
+            "Bisi Bele Bath",
+            "Akki Roti",
+            "Maize/Jola Roti",
+            "Jackfruit Idli",
+            "Cucumber Idli",
+            "Mirchi",
+            "Bonda"
+        ]
+    },
+    {
+        "name": "Kodagu",
+        "popular_dishes": [
+            "Coffee",
+            "Tea",
+            "Chocolate"
+        ]
+    }
+]

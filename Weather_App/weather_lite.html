@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+</head>
+
+<body>
+    <div class="flip-card">
+        <div class="logo">Climatebite</div>
+        <div class="card">
+
+            <a href="./weatherio-starter-master/index.html" class="viewMore"
+                style="text-decoration-line: none; color: #fff; font-weight: 600; width: 100%; display: flex; justify-content: flex-end; margin-bottom: 8px; transition: all 0.5s ease-out ;">
+                <p>View More</p>
+            </a>
+            <!-- Search icon and input field </a>ke liye -->
+            <div class="search">
+                <input type="text" placeholder="City" spellcheck="false">
+                <button><img src="./images/search.png" alt="search"></button>
+            </div>
+            <div class="bar">
+                <img src="/images/information-square-stroke-rounded.svg" alt="close-bar">
+                <p class="weather-sugg" style="filter: invert(1);">Drink more water</p>
+            </div>
+
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <div class="animate-container">
+                    <img src="./images/rain.png" alt="image" class="weather-icon">
+                    <h1 class="temp">22°<span class="conversion">C</span></h1>
+                    <h2 class="city">New Delhi</h2>
+                </div> <!-- Ye city ke name ko display karanne ke liye-->
+
+
+
+                <div class="details"> <!--Ye div humidity and wind bataayega -->
+                    <div class="col">
+                        <img src="./images/humidity.png" alt="humidity">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p class="text">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/wind.png" alt="humidity">
+                        <div>
+                            <p class="wind">15 km/hr</p>
+                            <p class="text">Wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-back">
+            <h2 style="text-align: center; font-size: 26px;">Food suggestion</h2>
+            <ul>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="popular_dishes" id="popular_dishes"
+        style="display: none; position: absolute; color: white; height: 90vh; width: 25vw; right: 1em; margin-top: 1em; background-color: hsl(0, 0%, 28%);">
+
+        <h1 style="padding-top: 12px; padding-left: 12px; position: absolute; top: 1.2em;">Popular Dishes</h1>
+        <br>
+
+        <ul id="listings" style="list-style: none; position: absolute; top: 16%;">
+
+
+        </ul>
+
+    </div>
+
+    <div class="toggler">
+        <img id="hamburger" src="./images/hamburger.svg" alt="hamburger"
+            style="filter: invert(1); width: 2.3%; position: absolute; right: 12%; top: 3%; cursor: pointer;">
+        <img id="close" src="./images/close.svg" alt="close"
+            style="display: none; filter: invert(1); width: 2.3%; position: absolute; right: 22%; top: 3%; cursor: pointer;">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
